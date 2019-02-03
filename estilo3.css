@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #272626;
+}
+
+
+/*Estilos para el menu*/
+
+.menuContainer {
+    background: #414040;
+    padding: 10px 10px 10px 20px;
+    height: 40px;
+    width: 100%;
+    /*Alineacion*/
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.menuContainer>div {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+
+/*Estilos para  los parrafos*/
+
+.mainContainer {
+    padding: 20px;
+}
+
+.seccionesWeb {
+    box-shadow: 1px 1px 10px rgb(46, 46, 46);
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    color: #fff;
+    background: #414040;
+}
+
+.title {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.buttons {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.buttons>div {
+    background: #272626;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 1px 1px 10px rgb(53, 53, 53);
+    cursor: pointer;
+    /*Alineacion para los botones*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
