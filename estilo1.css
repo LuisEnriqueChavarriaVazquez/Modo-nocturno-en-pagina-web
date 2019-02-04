@@ -10,18 +10,20 @@
 .menuContainer {
     background: #107a2b;
     padding: 10px 10px 10px 20px;
-    height: 40px;
+    height: 60px;
     width: 100%;
     /*Alineacion*/
     display: flex;
     align-items: center;
     justify-content: right;
+    box-sizing: border-box;
 }
 
 .menuContainer>div {
     font-size: 20px;
     color: #fff;
     margin-bottom: 5px;
+    width: 100%;
 }
 
 
